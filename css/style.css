@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-
+/*Row-1 is start*/
 }
 #row1{
  background-color: #2C3F50;
@@ -46,3 +46,21 @@
 
     
 }
+/* Row-1 is End */
+
+
+/*Row-2 is start*/
+#row2{
+
+}
+.header section{}
+.logo{}
+.logo img{}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{}
+.menu ul li i{}
+
+
+/* Row-2 is End */
