@@ -51,16 +51,53 @@
 
 /*Row-2 is start*/
 #row2{
+height: 80px;
+width: 100%;
+background: #fff;
+}
+.header section{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    height: 95px;
+    margin-top: 10px;
+}
+.menu{
+    width: 65%;
+    float: right;
+}
+.menu ul{
 
 }
-.header section{}
-.logo{}
-.logo img{}
-.menu{}
-.menu ul{}
-.menu ul li{}
-.menu ul li a{}
-.menu ul li i{}
+.menu ul li{
+    float: left;
+    line-height: 80px;
+    width: 110px;
+    text-align: center;
+    list-style: none;
+   
+
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #455964;
+
+}
+.menu ul li i{
+   
+    height: 30px;
+    width: 30px;
+    border: 2px solid #455964;
+    border-radius: 100%;
+    line-height: 30px;
+
+}
 
 
 /* Row-2 is End */
