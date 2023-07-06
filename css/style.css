@@ -1,96 +1,111 @@
-*{
+* {
     padding: 0;
     margin: 0;
-/*Row-1 is start*/
+    /*Row-1 is start*/
 }
-#row1{
- background-color: #2C3F50;
- height: 30px;
- width: 100%;
+
+#row1 {
+    background-color: #2C3F50;
+    height: 30px;
+    width: 100%;
 }
-.top-section{
+
+.top-section {
     width: 90%;
     margin: 0 auto;
 }
-.left-links{
+
+.left-links {
     width: 60%;
     float: left;
     height: 100%;
 }
-.left-links ul{}
-.left-links ul li{
+
+.left-links ul {}
+
+.left-links ul li {
     float: left;
     list-style: none;
     margin-left: 10px;
     color: rgb(251, 250, 248);
     line-height: 30px;
-    
+
 
 }
-.left-links ul li a{
+
+.left-links ul li a {
     color: white;
     text-decoration: none;
 }
-.social-links{
+
+.social-links {
     width: 30%;
     float: right;
     height: 100%;
     text-align: right;
-    
+
 }
-.social-links i{
+
+.social-links i {
     color: white;
     line-height: 30px;
     border-right: 2px solid #000;
     padding-right: 8px;
 
-    
+
 }
+
 /* Row-1 is End */
 
 
 /*Row-2 is start*/
-#row2{
-height: 80px;
-width: 100%;
-background: #fff;
+#row2 {
+    height: 80px;
+    width: 100%;
+    background: #fff;
 }
-.header section{
+
+.header section {
     width: 90%;
     margin: 0 auto;
 }
-.logo{
+
+.logo {
     width: 20%;
     float: left;
 }
-.logo img{
+
+.logo img {
     height: 95px;
     margin-top: 10px;
 }
-.menu{
-    width: 65%;
+
+.menu {
+    width: 60%;
     float: right;
 }
-.menu ul{
 
-}
-.menu ul li{
+.menu ul {}
+
+.menu ul li {
     float: left;
     line-height: 80px;
-    width: 110px;
+    width: 108px;
     text-align: center;
     list-style: none;
-   
+
 
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #455964;
 
 }
-.menu ul li i{
-   
+
+.menu ul li i {
+
     height: 30px;
     width: 30px;
     border: 2px solid #455964;
@@ -99,5 +114,72 @@ background: #fff;
 
 }
 
-
 /* Row-2 is End */
+
+/*Row-3 is start*/
+#Row3 {
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2019/01/Brooklyn-Bridge-in-New-York-City-USA-from-Manhattan-in-Brooklyn-and-vice-versa-HD-Wallpaper-Download-for-mobile-and-tablet-1920x1200.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-repeat: round;
+    background-size: cover;
+    position: relative;
+
+}
+
+.overlayrow3 {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.banner_section {
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner_content {}
+
+.banner_content h1 {
+
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    padding-top: 170px;
+
+}
+
+.banner content p {
+
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.banner button {}
+
+.banner_button button {
+    padding: 10px 20px;
+    background: none;
+    border: 2px solid black;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    margin-right: 10px;
+
+}
+
+.banner_button button :hover {
+    background-color: #455964;
+    transition: 1s;
+}
+
+/* row3 is end */
