@@ -1,196 +1,152 @@
-* {
+*{
     padding: 0;
     margin: 0;
-    /*Row-1 is start*/
 }
-
-#row1 {
-    background-color: #2C3F50;
-    height: 30px;
-    width: 100%;
+/* Row-1 CSS Start */
+#row1{
+background-color: #35363A;
+height: 30px;
+width: 100%;
 }
-
-.top-section {
+.top-section{
     width: 90%;
     margin: 0 auto;
 }
-
-.left-links {
+.left-links{
     width: 60%;
     float: left;
     height: 100%;
 }
-
-.left-links ul {}
-
-.left-links ul li {
+.left-links ul{}
+.left-links ul li{
     float: left;
     list-style: none;
     margin-left: 10px;
-    color: rgb(251, 250, 248);
+    color: #fff;
     line-height: 30px;
 
-
 }
-
-.left-links ul li a {
-    color: white;
+.left-links ul li a{
+    color: #fff;
     text-decoration: none;
 }
-
-.social-links {
+.social-links{
     width: 30%;
     float: right;
     height: 100%;
     text-align: right;
-
 }
-
-.social-links i {
-    color: white;
+.social-links i{
+    color: #fff;
     line-height: 30px;
     border-right: 2px solid #000;
     padding-right: 8px;
-
-
 }
+/* Row-1 CSS End */
 
-/* Row-1 is End */
 
-
-/*Row-2 is start*/
-#row2 {
+/* Row-2 CSS Start */
+#row2{
     height: 80px;
     width: 100%;
     background: #fff;
 }
-
-.header_section {
+.header_section{
     width: 90%;
     margin: 0 auto;
 }
-
-.logo {
-    width: 80%;
+.logo{
+    width: 25%;
     float: left;
 }
-
-.logo img {
-    height: 10px;
+.logo img{
+    height: 80px;
     margin-top: 10px;
-   
-    
-
-    
 }
-
-.menu {
+.menu{
     width: 65%;
     float: right;
+    text-align: right;
+
 }
-
-.menu ul {}
-
+.menu ul{
+}
 .menu ul li {
     float: left;
     line-height: 80px;
-    margin-left: 7px;
-    width: 90px;
+    width: 105px;
     text-align: center;
     list-style: none;
-
-
 }
-
 .menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
     color: #455964;
-
 }
-
 .menu ul li i {
-
     height: 30px;
     width: 30px;
     border: 2px solid #455964;
     border-radius: 100%;
     line-height: 30px;
-
 }
 
-/* Row-2 is End */
+/* Row-2 CSS End */
 
-/*Row-3 is start*/
-#Row3 {
-    background-image: url(https://img3.wallspic.com/crops/1/3/0/6/86031/86031-horizon-dawn-golden_gate_bridge-twilight-evening-2880x1800.jpg);
-    width: 100%;
+/* Row-3 CSS Start */
+#row3{
     height: 500px;
+    width: 100%;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1020/874/575/new-york-usa-night-city-bridge-wallpaper-preview.jpg);
     background-repeat: no-repeat;
-    background-repeat: round;
     background-size: cover;
+    background-repeat: round;
     position: relative;
-
 }
-
-.overlayrow3 {
+.overlayrow3{
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0,0,0,.7);
     position: absolute;
 }
-
-.banner_section {
+.banner_section{
     text-align: center;
-    color: white;
+    color: #fff;
     position: absolute;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    
 }
-
-.banner_content {}
-
+.banner_content{}
 .banner_content h1 {
-
     text-transform: uppercase;
     font-size: 50px;
     line-height: 70px;
-    padding-top: 170px;
-
+    padding-top: 200px;
 }
-
-.banner_content p {
-
-    font-size: 20px;
+.banner_content p{
+    font-size: 18px;
     font-weight: 600;
-    text-transform: capitalize;
-    margin-top: 50px;
-
+    margin-bottom: 40px;
 }
-
-.banner_button {}
-
+.banner_button{}
 .banner_button button {
-    padding: 10px 20px;
     background: none;
-    border: 2px solid black;
+    padding: 10px 20px;
+    border: 2px solid #fff;
     color: #fff;
     text-transform: uppercase;
     border-radius: 3px;
     margin-right: 10px;
-    margin-top: 40px;
-
 }
-
-.banner_button button:hover {
+.banner_button button:hover{
     background-color: #455964;
     transition: 1s;
 }
 
-/* row3 is end */
+/* Row-3 CSS End */
 
-/*Row-4 CSS start */
-
+/* Row-4 CSS Start */
 #row4{
     height: 80px;
     width: 100%;
@@ -199,16 +155,14 @@
 .form_section{
     width: 90%;
     margin: 0 auto;
-
 }
 .text_part{
     width: 15%;
     float: left;
     text-transform: uppercase;
     padding-top: 10px;
-
 }
-.text_part h4{
+.text_part h4 {
     line-height: 32px;
 }
 .text_part h1{
@@ -223,45 +177,322 @@
 }
 .input_item{
     float: left;
-    padding-top: 0px;
     width: 416px;
-
 }
-.input_item label{
+.input_item label {
     font-size: 18px;
     font-weight: 500;
-    color: #c5c1c1;
+    color: gray;
     padding-right: 15px;
-  
-} 
-.input_item input[type="text"]{
+}
+.input_item input[type="text"] {
     padding: 8px;
     width: 320px;
-    color :  #c5c1c1;
-} 
+    color: gray;
+}
 .input_item input[type="date"]{
-     padding: 8px;
-    width: 320px; 
-    color: #c5c1c1;
-} 
-.input_item i{
-    color: #c5c1c1;
+    padding: 8px;
+    width: 320px;
+    color: gray;
+}
+.input_item i {
+    color: gray;
     position: absolute;
-    margin-left: -30px;
+    margin-left: -26px;
     line-height: 35px;
-} 
-.form_part button{
-    padding: 10px;
-    margin-top: 9px;
-    background:  #c5c1c1 ;    
+}
+.form_part button {
+    padding: 10px 15px;
+
+    background: lightgray;
     border: none;
+}
+
+/* Row-4 CSS End */
+
+/* Row-5 CSS Start */
+#row5{
+    height: 400px;
+    width: 100%;
+    background: #fff;
+}
+.offer_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.offer_top{
+    text-align: center;
+    padding: 40px 0px;
+}
+.offer_top h2{}
+.offer_top p{}
+.offer_bottom{}
+.all_offer_items{}
+.offer_item{
+    width: 225px;
+    float: left;
+    margin-left: 40px;
+    border: 4px solid gray;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px;
+    transition: 1s;
+    background: pink;
+}
+.offer_item:hover{
+    transform: scale(1.2);
+    background: #2D3E50;
+    color: #fff;
+}
+.offer_item img{
+    width: 100%;
+    height: 150px;
+}
+.offer_text{
+    width: 80%;
+    float: left;
+}
+.offer_text h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.offer_text h4{
+    font-size: 12px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+.offer_item:hover .offer_text h4{
+    color: gray;
+}
+.offer_icon{
+    width: 10%;
+    float: right;
+}
+.offer_icon i {
+    line-height: 50px;
+}
 
 
+/* Row-5 CSS End */
+
+/* Row-6 CSS Start */
+#row6{
+    height: 400px;
+    width: 100%;
+    background: url(https://images.wallpaperscraft.com/image/single/buildings_night_city_river_178939_3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: round;
+    position: relative;
+}
+.overlay-6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.6);
+}
+.holidays_section{
+    width: 90%;
+    margin: 0 auto;
+}
+.holi_top{
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+    position: absolute;
+    left: 45%;
+}
+.holi_top h1{
+    text-transform: uppercase;
+}
+.holi_top p{}
+.holi_bottom{
+    padding-bottom: 40px;
+    position: absolute;
+    top: 50%;
+
+}
+.holi_item_all{}
+.holi_item {
+    width: 189px;
+    float: left;
+    color: #fff;
+    text-align: center;
+}
+.holi_item i {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    line-height: 100px;
+    font-size: 50px;
+}
+.holi_item h4{}
+/* Row-6 CSS End */
+
+/* Row-7 CSS Start */
+#row7
+{
+height: 400px;
+width: 100%;
+background: #fff;
+}
+.happy_section
+{
+width: 90%;
+margin: 0 auto;
+
+}
+.happy_top
+{
+text-align: center;
+padding: 40px 0px;
+}
+.happy_top h1
+{
+    text-transform: uppercase;
+}
+.happy_top p
+{
+
+}
+.happy_bottom
+{
+padding-bottom: 40px;
+}
+.happy_item
+{
+width: 29%;
+float: left;
+margin-left: 15px;
+border: 2px solid skyblue;
+padding: 10px;
+transition: 1s;
+}
+.happy_item:hover{
+    border-top: 5px solid #333;
+}
+.happy_item p
+{
+text-align: justify;
+}
+.happy_item h4{}
+/* Row-7 CSS End */
+
+/* Row-8 CSS start */
+#row8{
+    height: 370px;
+    width: 100%;
+    background-color: #303131;
+}
+.footer section{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer_top{
+    padding: 40px 0px;
+    border-bottom: 2px solid gray;
+    height: 205px;
+}
+.footer_top_item{
+    width: 22%;
+    float: left;
+    color: #fff;
+    margin-left: 34px;
+}
+.footer_top_item button{
+    padding: 7px 10px ;
+    background: gray;
+    border: none;
+}
+.footer_top_item h2{
+    margin-bottom: 10px;
+}
+.footer_top_item p{
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 224px;
+}
+.footer_top_item input[type="email"]{
+    padding: 5px;
+}
+.news_item{
+    height: 52px;
+    
+}
+.news_item_left{
+    width: 20%;
+    float: left;
+}
+.news_item_left img{
+    height: 20px;
+    border: 2px solid #fff;
+   
+
+}
+.news_item_right{
+    width: 70%;
+    float: left;
 
 
-/* Row-4 CSS is End */
+}
+.news_item_right h5{}
+.news_item_right p{
+    color: gray;
+    font-weight: 600;
+}
+.footer_top_item h5{
+    margin-top: -2px;
+}
+.footer_top_item ul{}
+.footer_top_item ul li{
+    list-style: none;
+    border: 1px solid white;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+.footer_top_item h4{
+    font-size: 14px;
+    line-height: 30px;
+
+}
+.footer_icon{}
+.footer_icon i{
+    margin-left: 18px;
+}
+.footer_bottom{}
+.footer_menu{
+    height: 25px;
+}
+.footer_menu ul{
+    width: 434px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.footer_menu ul li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+.footer_menu ul li a{
+    color: gray;
+    text-decoration: none;
+
+}
+.copy_right{}
+.copy_right p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+ 
+}
 
 
+/* Row-8 CSS End */
 
 
 
